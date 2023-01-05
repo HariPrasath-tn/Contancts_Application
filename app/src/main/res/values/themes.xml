@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ApplicationTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">#511BCD</item>
+        <item name="colorOnPrimary">@color/purple_200</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/purple_200</item>
+        <item name="colorSecondaryVariant">@color/purple_500</item>
+        <item name="colorOnSecondary">@color/purple_700</item>
+        <item name="statusBarForeground">@color/purple_200</item>
+    </style>
+    <style name="Theme.mySplashScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/selection_band_overlay</item>
+        <item name="windowSplashScreenAnimationDuration">40000</item>
+        <item name="android:colorPrimary">@color/purple_700</item>
+        <item name="colorPrimaryVariant">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/purple_200</item>
+
+        <item name="colorSecondary">@color/purple_200</item>
+        <item name="colorSecondaryVariant">@color/purple_500</item>
+        <item name="colorOnSecondary">@color/purple_700</item>
+        <item name="statusBarForeground">@color/purple_200</item>
+        <item name="postSplashScreenTheme">@style/Theme.ApplicationTheme</item>
+        <item name="windowSplashScreenBackground">@color/white</item>
+    </style>
+</resources>

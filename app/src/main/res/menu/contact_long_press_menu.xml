@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/contactShareMenuButton"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="share" />
+    <item
+        android:id="@+id/contactEditMenuButton"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:title="edit" />
+    <item
+        android:id="@+id/contactDeleteMenuButton"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="delete" />
+</menu>

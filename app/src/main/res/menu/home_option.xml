@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/optionItemAdd"
+        android:title="@string/add_contact"
+        android:icon="@drawable/add_contact"/>
+    <item
+        android:id="@+id/optionItemExport"
+        android:title="@string/export_contact"
+        android:icon="@drawable/upload"/>
+    <item
+        android:id="@+id/optionITemImportContact"
+        android:title="@string/import_contact" />
+    <item
+        android:id="@+id/optionItemSettings"
+        android:title="@string/settings"
+        android:icon="@drawable/settings"/>
+</menu>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="0dp"
+            android:layout_height="500dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/number0"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="56dp"
+                android:layout_marginBottom="108dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/_0"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/symbolAsh"
+                app:layout_constraintStart_toEndOf="@+id/symbolStar"
+                app:layout_constraintTop_toBottomOf="@+id/number8" />
+
+            <TextView
+                android:id="@+id/symbolAsh"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="54dp"
+                android:layout_marginBottom="108dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/ash"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/number0"
+                app:layout_constraintTop_toBottomOf="@+id/number9" />
+
+            <TextView
+                android:id="@+id/symbolStar"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="52dp"
+                android:layout_marginBottom="108dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:paddingTop="5dp"
+                android:text="@string/star"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/number0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/number7" />
+
+            <TextView
+                android:id="@+id/number1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="51dp"
+                android:layout_marginBottom="32dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/_1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toTopOf="@+id/number4"
+                app:layout_constraintEnd_toStartOf="@+id/number2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/phoneNumber" />
+
+            <TextView
+                android:id="@+id/number4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="51dp"
+                android:layout_marginBottom="36dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/_4"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toTopOf="@+id/number7"
+                app:layout_constraintEnd_toStartOf="@+id/number5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/number1" />
+
+            <TextView
+                android:id="@+id/number9"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="54dp"
+                android:layout_marginBottom="30dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/_9"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toTopOf="@+id/symbolAsh"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/number8"
+                app:layout_constraintTop_toBottomOf="@+id/number6" />
+
+            <TextView
+                android:id="@+id/number8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="56dp"
+                android:layout_marginBottom="30dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/_8"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toTopOf="@+id/number0"
+                app:layout_constraintEnd_toStartOf="@+id/number9"
+                app:layout_constraintStart_toEndOf="@+id/number7"
+                app:layout_constraintTop_toBottomOf="@+id/number5" />
+
+            <TextView
+                android:id="@+id/number7"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="52dp"
+                android:layout_marginBottom="30dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/_7"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toTopOf="@+id/symbolStar"
+                app:layout_constraintEnd_toStartOf="@+id/number8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/number4" />
+
+            <TextView
+                android:id="@+id/number6"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="54dp"
+                android:layout_marginBottom="36dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/_6"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toTopOf="@+id/number9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/number5"
+                app:layout_constraintTop_toBottomOf="@+id/number3" />
+
+            <TextView
+                android:id="@+id/number5"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="57dp"
+                android:layout_marginBottom="36dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/_5"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toTopOf="@+id/number8"
+                app:layout_constraintEnd_toStartOf="@+id/number6"
+                app:layout_constraintStart_toEndOf="@+id/number4"
+                app:layout_constraintTop_toBottomOf="@+id/number2" />
+
+            <TextView
+                android:id="@+id/number3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="54dp"
+                android:layout_marginBottom="32dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/_3"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toTopOf="@+id/number6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/number2"
+                app:layout_constraintTop_toBottomOf="@+id/phoneNumber" />
+
+            <TextView
+                android:id="@+id/number2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="57dp"
+                android:layout_marginBottom="32dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/_2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toTopOf="@+id/number5"
+                app:layout_constraintEnd_toStartOf="@+id/number3"
+                app:layout_constraintStart_toEndOf="@+id/number1"
+                app:layout_constraintTop_toTopOf="@+id/number1" />
+
+            <ImageButton
+                android:id="@+id/callButton"
+                android:layout_width="80dp"
+                android:layout_height="68dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/call_image_button"
+                android:src="@drawable/call_outline"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/number0" />
+
+            <TextView
+                android:id="@+id/phoneNumber"
+                android:layout_width="263dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="8dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                app:layout_constraintEnd_toStartOf="@+id/clear_digit"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/clear_digit"
+                android:layout_width="81dp"
+                android:layout_height="0dp"
+                android:backgroundTint="#C8FFFFFF"
+                app:layout_constraintBottom_toBottomOf="@+id/phoneNumber"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/phoneNumber"
+                app:srcCompat="@drawable/ic_baseline_backspace_24" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

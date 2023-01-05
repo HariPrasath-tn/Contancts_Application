@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottomNavMenuProfile"
+        android:icon="@drawable/profile"
+        android:title="@string/profile"/>
+    <item
+        android:id="@+id/bottomNavMenuDialer"
+        android:icon="@drawable/dialer"
+        android:title="@string/dialer" />
+    <item
+        android:id="@+id/bottomNavMenuContacts"
+        android:icon="@drawable/call_outline"
+        android:title="@string/contacts" />
+</menu>
